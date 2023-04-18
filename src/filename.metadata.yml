@@ -1,0 +1,35 @@
+# Metadata for a data-containing file
+
+# General information
+file_name: <file_name>  # file1.csv
+file_type: <file_type>  # csv, xls
+file_size: <file_size>  # in bytes
+
+# An absolute or a relative path? Which makes more sense?
+file_path: <file_path>    # Relative to the domain root /folder/file.csv
+
+created_date: <created_date> # in ISO format (yyyy-mm-dd)
+last_modified_date: <last_modified_date> # in ISO format (yyyy-mm-dd)
+
+# Expires, 
+# the date when data in this file becomes outdates and a newer file should be provided
+expires_date: <expires_date> # in ISO format (yyyy-mm-dd)
+
+# File hash, one required
+hash_md5_value: <hash_md5_value>
+hash_sha1_value: <hash_sha1_value>
+hash_sha256_value: <hash_sha256_value>
+
+# Generating code URL
+code_repository_url: <code_repository_url> # f.e. https://github.io/example-repo
+
+# Authors responsible for the file, use for notifications
+authors:
+  - author_name: <author_name>
+    author_email: <author_email>
+  - author_name: <author_name>
+    author_email: <author_email>
+
+# Description and more...
+data_description: <data_description>
+data_license: <data_license>
