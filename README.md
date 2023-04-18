@@ -43,7 +43,7 @@ latest_metadata_path: /folder/file1.metadata.yml
 expires_date: 2023-04-25
 ```
 
-## Metadata File Example
+## How to use
 
 To use SFM, create a .metadata.yml file for each data file in your repository and a .latest.yml file to point to the latest version of the data file and its metadata. Update the metadata files as needed to reflect changes in the data files.
 
