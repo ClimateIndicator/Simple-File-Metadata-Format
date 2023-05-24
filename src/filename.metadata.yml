@@ -2,18 +2,15 @@
 
 # General information
 file_name: <file_name>  # file1.csv
-file_type: <file_type>  # csv, xls
+file_type: <file_type>  # csv, xls ...
 file_size: <file_size>  # in bytes
 
-# An absolute or a relative path? Which makes more sense?
-file_path: <file_path>    # Relative to the domain root /folder/file.csv
-
-created_date: <created_date> # in ISO format (yyyy-mm-dd)
-last_modified_date: <last_modified_date> # in ISO format (yyyy-mm-dd)
+created_date: <created_date> # ISO 8601 date (YYY-MM-DD) or UTC date and time (YYYY-MM-DDThh:mm:ssZ)
+last_modified_date: <last_modified_date> # ISO 8601 date (YYY-MM-DD) or UTC date and time (YYYY-MM-DDThh:mm:ssZ)
 
 # Expires, 
 # the date when data in this file becomes outdates and a newer file should be provided
-expires_date: <expires_date> # in ISO format (yyyy-mm-dd)
+expires_date: <expires_date> # ISO 8601 date (YYY-MM-DD) or UTC date and time (YYYY-MM-DDThh:mm:ssZ)
 
 # File hash, one required
 hash_md5_value: <hash_md5_value>
