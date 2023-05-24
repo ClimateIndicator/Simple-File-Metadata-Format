@@ -6,10 +6,6 @@ SFM (Simple File Metadata) is a human-readable YAML-based format for managing an
 **Metadata File (`*.metadata.yml`)**: Contains metadata about a data file, such as file type, file size, created date, last modified date, expiration date, file hashes and more. The metadata file should be
  - placed in the same folder as the data file it describes
  - have the same name as the data file it describes, with the addition of a .metadata.yml extension
- 
-**Example structure:**`
- /folder/file1.csv
- /folder/file1.metadata.yml
 
 Look into ./src folder and files for a full list of supported metadata.
 
